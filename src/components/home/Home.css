@@ -1,0 +1,39 @@
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgba(38, 37, 37, 0.8);
+  }
+  
+  h1 {
+    font-size: 46px;
+    color: #333;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: gold;
+  }
+  
+  p {
+    font-size: 28px;
+    color: #666;
+    margin-bottom: 30px;
+    color: gold;
+    text-shadow: #333;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: large;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .btn:hover {
+    background-color: green;
+  }

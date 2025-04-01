@@ -1,0 +1,37 @@
+header {
+    background: black;
+    font-family: fantasy;
+  }
+  header ul {
+    padding: 0;
+    display: flex;
+    align-items: right;
+    max-width: 100%;
+    margin-right: auto;
+  }
+  header ul span {
+    color: white;
+    padding: 0.5em;
+    font-size: 1.5em;
+  }
+  header li {
+    list-style: none;
+    margin: .35em;
+    padding: 0 .95em;
+  }
+  header a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+  }
+  nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+  }
+  header li :hover{
+    background-color: gold;
+    transition: background-color 0.3s;
+    color: black;
+  }
