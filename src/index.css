@@ -1,0 +1,11 @@
+body {
+  background-image: url("../public/img/fresh-cocktails-with-ice-lemon-lime-fruits-generative-ai.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
