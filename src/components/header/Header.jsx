@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
@@ -7,28 +8,28 @@ export default function Header() {
                 <nav>
                     <ul>
                         <li>
-                            <a routerlink="/">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li >
-                            <a routerlink="/view/cocktails">Dashboard</a>
+                            <Link to="/dashboard">Dashboard</Link>
                         </li>
                         <li>
-                            <a routerlink="/auth/login">Login</a>
+                            <Link to="/">Login</Link>
                         </li>
                         <li >
-                            <a>Logout</a>
+                            <Link>Logout</Link>
                         </li>
                         <li>
-                            <a routerlink="/auth/register">Register</a>
+                            <Link to="/">Register</Link>
                         </li>
                         <li >
-                            <a routerlink="/view/create-cocktail">Create a drink</a>
+                            <Link to="/">Create a drink</Link>
                         </li>
                         <li >
-                            <a routerlink="/auth/profile">Profile</a>
+                            <Link to="/">Profile</Link>
                         </li>
                         <li >
-                            <a routerlink="/search">Search</a>
+                            <Link to="/search">Search</Link>
                         </li>
 
                     </ul>
