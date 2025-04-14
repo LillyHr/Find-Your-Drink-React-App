@@ -1,0 +1,80 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-picture {
+    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.profile-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.profile-info {
+    font-size: 18px;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+a {
+    color: gold;
+}
+a:hover {
+    color: green;
+}
+
+/* .container-cocktails {
+    background-color: gold;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cocktail-list {
+    margin-bottom: 30px;
+    width: 400px;
+}
+.h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cocktail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cocktail-item img {
+    width: 80px;
+    height: 80px;
+    object-fit:scale-down;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.cocktail-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.cocktail-description {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+.cocktail-aside {
+    width: 300px;
+    padding: 20px;
+
+}
+.h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+} */

@@ -8,28 +8,28 @@ export default function Header() {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to={"/"}>Home</Link>
                         </li>
                         <li >
-                            <Link to="/dashboard">Dashboard</Link>
+                            <Link to={"/dashboard"}>Dashboard</Link>
                         </li>
                         <li>
-                            <Link to="/">Login</Link>
+                            <Link to={"/login"}>Login</Link>
                         </li>
                         <li >
-                            <Link>Logout</Link>
+                            <Link to={"/"}>Logout</Link>
                         </li>
                         <li>
-                            <Link to="/">Register</Link>
+                            <Link to={"/register"}>Register</Link>
                         </li>
                         <li >
-                            <Link to="/">Create a drink</Link>
+                            <Link to={"/create-a-drink"}>Create a drink</Link>
                         </li>
                         <li >
-                            <Link to="/">Profile</Link>
+                            <Link to={"/profile"}>Profile</Link>
                         </li>
                         <li >
-                            <Link to="/search">Search</Link>
+                            <Link to={"/search"}>Search</Link>
                         </li>
 
                     </ul>

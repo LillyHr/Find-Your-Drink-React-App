@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import './Dashboard.css';
+import Home from '../home/Home';
 
 const coctails = [
     {
@@ -32,11 +34,14 @@ export default function Dashboard() {
         </div>)
 
     return <>
-
+        <div className='container'>
         <h2>Cocktail Dashboard</h2>
         <div className="card-container">
             {cocktailList}
         </div>
+        <Link to={'/'}>Back to Home page</Link>
+        </div>
+
     </>
 }
 
